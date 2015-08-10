@@ -1,0 +1,22 @@
+.app {
+  width: 500px;
+  margin: 5px auto;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+.app-status {
+  background-color: bisque;
+  text-align: center;
+  margin-bottom: 4px;
+  padding: 4px;
+}
+.search-people {
+  width: 248px;
+  box-sizing: border-box;
+  padding: 4px;
+}
+.sort-people {
+  width: 248px;
+  margin-left: 4px;
+  box-sizing: border-box;
+  padding: 4px;
+}

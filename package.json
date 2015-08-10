@@ -1,0 +1,38 @@
+{
+  "name": "swapp",
+  "version": "0.1.0",
+  "description": "Star Wars catalog built with React, flux and ECMAScript 6",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel-node -- ./node_modules/.bin/webpack --progress",
+    "start": "babel-node -- ./node_modules/.bin/webpack-dev-server --progress --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuelazran/swapp.git"
+  },
+  "author": "Samuel Azran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelazran/swapp.git"
+  },
+  "homepage": "https://github.com/samuelazran/swapp",
+  "devDependencies": {
+    "babel-core": "^5.1.11",
+    "babel-loader": "^5.0.0",
+    "babel-eslint": "^3.1.20",
+    "css-loader": "^0.15.1",
+    "eslint": "^0.24.0",
+    "eslint-loader": "^0.14.1",
+    "eslint-plugin-react": "^2.6.2",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.8.9",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "alt": "^0.17.1",
+    "axios": "^0.5.4",
+    "babel": "^5.6.14",
+    "react": "^0.13.3"
+  }
+}
